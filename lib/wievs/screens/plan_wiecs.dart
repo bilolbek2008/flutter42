@@ -140,7 +140,7 @@ class PlanView extends StatelessWidget {
                 if (newValue.isNotEmpty || newValue == null) {
                   controller.updatePlan(index, newValue);
                   Navigator.of(context).pop();
-                }^
+                }
               },
             ),
           ],
